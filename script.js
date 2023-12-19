@@ -16,47 +16,47 @@ function shakeMagic8Ball() {
     switch (randomNumber) {
         case 0:
             answer = "Yes";
-            image = "yes-image.jpg"
+            image = "img/yes.jpg"
             color = "text-muted";
             break;
         case 1:
             answer = "It is decidedly so";
-            image = "yes-image.jpg"
+            image = "img/itisdecidedlyso.jpg"
             color = "text-muted";
             break;
         case 2:
             answer = "As I see it yes";
-            image = "yes-image.jpg"
+            image = "img/asiseeityes.jpg"
             color = "text-muted";
             break;
         case 3:
             answer = "Ask Again Later";
-            image = "yes-image.jpg"
+            image = "img/askagainlater.jpg"
             color = "text-danger";
             break;
         case 4:
             answer = "Cannot predict now";
-            image = "yes-image.jpg"
+            image = "img/cannotpredictnow.jpg"
             color = "text-danger";
             break;
         case 5:
             answer = "Outlook not so good";
-            image = "yes-image.jpg"
+            image = "img/outlooknotsogood.jpg"
             color = "text-danger";
             break;
         case 6:
             answer = "My sources say no";
-            image = "yes-image.jpg"
+            image = "img/mysourcessayno.jpg"
             color = "text-danger";
             break;
         case 7:
             answer = "It is certain";
-            image = "yes-image.jpg"
+            image = "img/itiscertain.jpg"
             color = "text-muted";
             break;
         case 8:
             answer = "Signs point to yes";
-            image = "yes-image.jpg"
+            image = "img/signspointtoyes.jpg"
             color = "text-muted";
             break;
 
