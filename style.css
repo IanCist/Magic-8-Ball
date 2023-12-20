@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, #3498db, #8e44ad);
+    color: #fff; /* Set text color to white for better visibility */
+    animation: gradientAnimation 10s infinite linear; /* Adjust the duration and other parameters as needed */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
